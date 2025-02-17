@@ -1,13 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Outfit:wght@100..900&display=swap');
+* {
+    padding: 0;
+    margin: 10;
+}
 
 body {
+    box-sizing: border-box;
     background-color: black;
     color: white;
+    height: 100vh;
+
 }
 
-strong {
-    color: #22d4fd
+.descripcionTecno {
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    color: aquamarine;
 }
 
-.descripcionTecno{
-    color: #22d4fd
+.bloque{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.nombre {
+    font-size: 35px;
+    font-family: "Outfit", serif;
+    color: pink
+}
+
+.fotografia{
+    height:35vh;
+}
+
+.descripcionEmprendimiento{
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    color: aquamarine;
+}
+
+.enlaces{
+    display: flex;
+    justify-content: space-between;
+}
+
+.botonEnlace{
+    width: 150px;
+    background-color: pink;
+    text-align: center;
+    padding: 21.5px 0px;
+    border-radius: 16px;
+    font-family: "Outfit", serif;
+    font-size:15px;
+    font-weight: 600;
+    text-decoration: none;
 }
